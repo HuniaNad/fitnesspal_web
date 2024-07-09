@@ -1,0 +1,58 @@
+.main-container {
+    margin-top: 0px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+.cards .title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px;
+
+    border-bottom: 1px solid var(--text-secondary-light);
+
+}
+
+.credit-card {
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card .arrow {
+    margin-left: 20px;
+    color: var(--text-secondary-dark);
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card-manipulate-container {
+    width: 100%; 
+}
+
+.card-manipulate-container .add-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.card-form-container {
+    width: 100%;
+}

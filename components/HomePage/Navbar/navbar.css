@@ -1,0 +1,30 @@
+.navbar-container {
+    background-color: var(--header);
+    color: var(--home-bg);
+    width: 100%;
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: var(--home-bg);
+    margin: 0 20px;
+    text-decoration: none;
+}
+.navbar-links a:hover {
+    color: #BE9FFD;
+    text-decoration: underline;
+}
+
+.navbar-auth {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-auth .signup:hover {
+    color: #E69EFE;
+    text-decoration: underline;
+}

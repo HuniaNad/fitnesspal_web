@@ -1,0 +1,200 @@
+.drinkingwater-avatar img{
+    width: 200px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+
+    padding: 40px 40px;
+    max-width: 100% !important;
+}
+
+.container .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.container .svg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container .svg img {
+    width: 450px;
+
+}
+
+.content .input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content .input-fields input {
+    width: 350px;
+}
+
+.content .input-fields a {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    text-align: right;
+    width: 350px;
+}
+
+.content .input-fields a:hover {
+    color: var(--text-tertiary);
+}
+
+.content .custom-btn {
+    width: 350px;
+    padding: 10px 25px;
+    margin: 20px 0;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+/* AUTH BUTTONS */
+
+.content :where(.auth-purple, .auth-pink) {
+    color: #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.content :where(.auth-purple, .auth-pink):hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.content .auth-purple {
+    background-color: var(--text-tertiary);
+}
+
+.content .auth-pink {
+    background-color: var(--pink);
+}
+
+.content .google-auth {
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content .google-auth img {
+    width: 30px;
+    height: 30px;
+}
+
+.content .google-auth:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* DIVIDERS */
+
+.content :where(.horizontal-divider, .vertical-divider) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.content .horizontal-divider span {
+    width: 150px;
+    border: 0.5px solid var(--text-secondary-light);
+}
+
+.content .vertical-divider {
+    width: 350px;
+}
+
+.content .vertical-divider .google-auth {
+    width: 40%;
+}
+
+.content .vertical-divider span {
+    height: 50px;
+    border: 0.5px solid var(--text-secondary-light);
+}
+
+/* REDIRECTS */
+
+.content .redirect {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content .redirect a {
+    margin-left: 5px;
+    font-weight: 600;
+}
+.content .redirect a:hover {
+    text-decoration: underline;
+}
+
+.content .pink a {
+    color: var(--pink);
+}
+.content .purple a {
+    color: var(--text-tertiary);
+}
+
+.otp-msg .custom-btn {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.two-fields input[type="number"] {
+    width: 164px;
+}
+
+.label-section {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+}
+
+.label-section h1 {
+    font-size: 1.3rem;
+}
+
+.label-section p {
+    font-size: 0.8rem;
+    color: var(--text-secondary-light);
+}
+
+.field-row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

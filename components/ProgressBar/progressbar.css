@@ -1,0 +1,13 @@
+.progress-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.progress-container .horizontal-divider {
+    width: 100px;
+    margin: 0;
+    gap: 0;
+}

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --header: #000000;
+    --home-bg: #faf1fe;
+    --text-primary: #000000;
+    --text-secondary-light: #a6a6a6;
+    --text-secondary-dark: #808080;
+    --text-tertiary: #be9ffd;
+
+    --purple: #be9ffd;
+    --pink: #ffa88a;
+    --green: #33ba74;
+    --bright-green: #00D2C4;
+}
+
+body {
+    background: rgb(var(--home-bg));
+}
+
+.auth-header {
+    background: rgb(0, 0, 0, 0.1);
+    background: url(../public/images/auth_header.svg) no-repeat center center;
+    width: 100%;
+    background-size: cover
+}
+
+.backgroundColor {
+    background: linear-gradient(53.43deg, #4CAF50 -5.91%, #05D0BC 42.55%, #02D1C1 54.87%, #00D2C4 54.88%, #00D2C4 98%);
+
+}
+
+.mainSetting::-webkit-scrollbar {
+    display: none;
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-steps .ant-steps-item-process .ant-steps-item-icon {
+    background: linear-gradient(53.43deg, #4CAF50 -5.91%, #05D0BC 42.55%, #02D1C1 54.87%, #00D2C4 54.88%, #00D2C4 98%);
+    @apply border-primary font-bold
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background: linear-gradient(53.43deg, #4CAF50 -5.91%, #05D0BC 42.55%, #02D1C1 54.87%, #00D2C4 54.88%, #00D2C4 98%);
+    @apply h-0.5
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-steps .ant-steps-item-finish .ant-steps-item-icon{
+    background: linear-gradient(53.43deg, #4CAF50 -5.91%, #05D0BC 42.55%, #02D1C1 54.87%, #00D2C4 54.88%, #00D2C4 98%);
+    @apply border-primary font-bold text-white
+}
+.ant-steps-icon{
+    color: white !important;
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: #00D2C4 !important;
+    background: linear-gradient(53.43deg, #4CAF50 -5.91%, #05D0BC 42.55%, #02D1C1 54.87%, #00D2C4 54.88%, #00D2C4 98%) !important;
+}
+.mainSetting {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.auth-header img {
+    padding-left: 30px;
+}
+
+@import '../components/common/common.css';
+@import '../components/HomePage/Navbar/navbar.css';
+@import '../components/HomePage/HeroSection/hero.css';
+@import '../components/HomePage/BMISection/bmi.css';
+@import '../components/Input/input.css';
+@import '../components/HomePage/FeaturesSection/features.css';
+@import '../components/HomePage/Heading/heading.css';
+@import '../components/HomePage/SubscriptionSection/subscription.css';
+@import '../components/HomePage/Footer/footer.css';
+@import '../components/SideNavigation/sideNavigation.css';
+
+@import './(pages)/(auth)/layout.css';
+@import './(pages)/(home)/layout.css';
+@import '../components/ProgressBar/progressbar.css';
+@import './(pages)/(auth)/(health-insights)/health-insights-3/page.css';

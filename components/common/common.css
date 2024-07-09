@@ -1,0 +1,44 @@
+.custom-btn {
+    color: var(--home-bg);
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.gradient-button-purple {
+    background: rgb(190,159,253);
+    background: linear-gradient(55deg, rgba(190,159,253,1) 38%, rgba(234,158,254,1) 91%, rgba(251,158,255,1) 100%);
+}
+
+.gradient-button-purple:hover {
+    box-shadow: 0 0 10px 2px rgba(251,158,255,0.7);
+}
+
+.gradient-button-green {
+    background: rgb(0,210,196);
+    background: linear-gradient(60deg, rgba(0,210,196,1) 10%, rgba(8,206,184,1) 44%, rgba(76,175,80,1) 100%);
+}
+
+.gradient-button-green:hover {
+    box-shadow: 0 0 10px 2px rgba(76,175,80,0.7);
+}
+
+.button-border {
+    border: 1px solid black;
+    color: var(--primary-color);
+}
+
+.button-border:hover {
+    color: white;
+    background: black;
+    box-shadow: 0 0 10px 2px rgba(89, 95, 89, 0.7);
+}
+
+.section-layout {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

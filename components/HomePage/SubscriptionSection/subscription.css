@@ -1,0 +1,94 @@
+.subscription-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.subscription-container {
+    width: 380px;
+    height: 100%;
+    border-radius: 39px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.free {
+    border: 2px solid var(--text-primary);
+}
+
+.free button:hover, .free button:focus, .premium button:hover, .premium button:focus {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.premium {
+    background: rgb(0,210,196);
+    background: linear-gradient(160deg, rgba(0,210,196,1) 10%, rgba(8,206,184,1) 44%, rgba(76,175,80,1) 100%);
+}
+
+.premium button {
+    background: var(--home-bg);
+    color: var(--green);
+
+}
+
+.pricing p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.pricing h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.pricing h1 span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.perks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.perk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perk .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.perk .text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: start;
+}
+
+.perk .text p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    text-align: start;
+}
+
+.subscription-container button {
+    margin-top: 40px;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: 600;
+}

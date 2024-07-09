@@ -1,0 +1,41 @@
+.field-border {
+    border: 1px solid #555555 !important;
+    border-radius: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.right-placeholder {
+    color: #555555;
+}
+
+.otp {
+    display: flex;
+    gap: 10px;
+}
+
+.otp input {
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.password-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #555555;
+}
+
+.error-msg {
+    margin-bottom: 10px;
+    text-wrap: wrap;
+}
+
+.width-full {
+    width: 350px;
+}

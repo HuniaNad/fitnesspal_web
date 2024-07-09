@@ -1,0 +1,68 @@
+.bmi-analysis-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+
+    width: 350px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bmi-analysis-container .current-bmi {
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    border-radius: 15px 0 0 15px;
+    background: linear-gradient(274deg, rgba(190,159,253,1) 0%, rgba(235,158,254,1) 80%, rgba(251,158,255,1) 100%);
+}
+
+.bmi-analysis-container .analysis-btn {
+    width: 50%;
+    border-radius: 0 15px 15px 0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.bmi-analysis-container .analysis-btn:hover {
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.bmi-analysis-container .analysis-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 12px;
+    padding: 16px 10px 16px 15px;
+}
+
+.field-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.field-row :where(.left, .right) {
+    border: 1px solid var(--purple);
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    color: var(--text-tertiary);
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(66, 48, 62, 0.1);
+    cursor: pointer;
+}
+.field-row :where(.left, .right):hover {
+    box-shadow: 10px 10px 15px rgba(66, 48, 62, 0.3);
+}
+
+.field-row .left {
+    border-radius: 15px 0px;
+}
+
+.field-row .right {
+    border-radius: 0px 15px;
+}
